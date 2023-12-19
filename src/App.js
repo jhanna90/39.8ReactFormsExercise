@@ -1,13 +1,10 @@
-import React from "react";
-import BoxList from "./BoxList";
+import './App.css';
+import TodoList from './TodoList';
 
 function App() {
   return (
-    <div>
-      <BoxList />
-    </div>
+    <TodoList />
   );
 }
 
 export default App;
-
